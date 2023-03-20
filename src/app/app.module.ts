@@ -5,11 +5,19 @@ import {AppRoutingModule} from './app-routing.module';
 import {AppComponent} from './app.component';
 import {HttpClientModule} from "@angular/common/http";
 import { ChallengeComponent } from './challenge/challenge.component';
+import { NavbarComponent } from './navbar/navbar.component';
+import { SideNavbarComponent } from './side-navbar/side-navbar.component';
+import { DashboardComponent } from './dashboard/dashboard.component';
+import { DashboardContentComponent } from './dashboard-content/dashboard-content.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    ChallengeComponent
+    ChallengeComponent,
+    NavbarComponent,
+    SideNavbarComponent,
+    DashboardComponent,
+    DashboardContentComponent
   ],
   imports: [
     BrowserModule,
