@@ -1,18 +1,17 @@
-/*.ce-container {*/
-/*  position: absolute;*/
-/*  width: 100%;*/
-/*  height: 100%;*/
-/*}*/
+.ce-container {
+  position: absolute;
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+}
 
 .sidebar {
-  top: 80px;
-  position: fixed;
-  z-index: 1000;
+  top: 56px;
   bottom: 0;
   left: 0;
-  /*float: left;*/
+  float: left;
 }
 
 .content {
-  /*float: left;*/
+  float: left;
 }
