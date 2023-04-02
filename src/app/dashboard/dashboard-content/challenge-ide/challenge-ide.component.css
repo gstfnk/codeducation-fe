@@ -1,0 +1,8 @@
+.ce-container {
+  position: absolute;
+  display: inline-block;
+}
+
+.left-side {
+  float: left;
+}
